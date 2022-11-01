@@ -207,7 +207,7 @@ body {
 
 .rewards {
     color: #1e3932;
-        /* margin: 32px 212.5px; */
+        margin: 32px 0;
     display: flex;
     justify-content: center;
     /* width: 100%; */
