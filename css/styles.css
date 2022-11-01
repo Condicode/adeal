@@ -38,7 +38,7 @@ body {
 .navbarContainer {
     width: 100%;
     height: 101px;
-        margin: 0 212.5px;
+        /* margin: 0 212.5px; */
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -200,7 +200,7 @@ body {
 
 .rewards {
     color: #1e3932;
-        margin: 32px 212.5px;
+        /* margin: 32px 212.5px; */
     display: flex;
     justify-content: center;
     /* width: 100%; */
@@ -217,6 +217,7 @@ body {
     align-items: center;
     width: 100%;
     height: 45vh;
+    min-height: 435px;
     max-width: 1440px;
     background-color: #d4e9e2;
 }
@@ -304,7 +305,7 @@ margin-top: 32px;
 
 .halloween {
         color: #ffffff;
-    margin: 32px 212.5px;
+    margin: 32px 0;
     display: flex;
     justify-content: center;
     /* width: 100%; */
@@ -409,7 +410,7 @@ margin-top: 32px;
 
 .pumpkin {
     color: #ffffff;
-    margin: 32px 212.5px;
+    margin: 32px 0;
     display: flex;
     justify-content: center;
     /* width: 100%; */
@@ -516,7 +517,7 @@ margin-top: 32px;
 
 .bakedApple {
     color: #ffffff;
-    margin: 32px 212.5px;
+    margin: 32px 0;
     display: flex;
     justify-content: center;
     /* width: 100%; */
@@ -623,7 +624,7 @@ margin-top: 32px;
 
 .glassnmug {
     color: #ffffff;
-    margin: 32px 212.5px;
+    margin: 32px 0;
     display: flex;
     justify-content: center;
     /* width: 100%; */
@@ -745,7 +746,7 @@ margin-top: 32px;
 .info {
     display: flex;
     /* width: 100%; */
-    margin: 32px 212.5px;
+    margin: 32px 0;
     box-sizing: inherit;
     /* padding-top: 0.8rem; */
     /* padding-bottom: 0.8rem; */
@@ -762,7 +763,24 @@ margin-top: 32px;
     align-items: flex-start;
     width: 100%;
     gap: 32px;
+    margin-left: auto;
+        margin-right: auto;
     max-width: 1440px;
+}
+
+/* max-width: 1440px; */
+@media screen and (max-width: 1440px) {
+    .infoContainer {
+        padding: 0 40px;
+    }
+}
+
+.infoImg {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    /* padding-top: 2rem;
+    padding-bottom: 0; */
 }
 
 .infoContainer ul {
@@ -804,7 +822,7 @@ flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     /* width: 100%; */
-    margin: 32px 212.5px;
+    margin: 32px 0;
     max-width: 1440px;
 }
 
